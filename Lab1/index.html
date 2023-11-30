@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <!-- Responsiveness for smaller devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="styles/style.css" />
+   </head>
+   <body>
+      <!-- Navbar elements -->
+      <nav class="navbar">
+         <ul class="nav-list">
+            <li><a href="#start" class="nav-link">start</a></li>
+            <li><a href="#about" class="nav-link">about me</a></li>
+            <li><a href="#gallery" class="nav-link">gallery</a></li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+         </ul>
+      </nav>
+
+      <!-- All sections within main -->
+      <main class="main">
+         <!-- Start section -->
+         <section id="start">
+            <div class="start-content">
+               <div class="start-contect-text">
+                  <h1 class="start-header">
+                     Hi! <br />
+                     I'm Axel, <br />
+                     Aspiring developer
+                  </h1>
+                  <p class="start-paragraph">
+                     Second year system science student at Luleå Tekniska
+                     Universitet with prior experience in several system and
+                     business development projects.
+                  </p>
+
+                  <a href="#contact" class="page-link">Hire me</a>
+               </div>
+               <img src="assets/avatar.png" alt="avatar picture" />
+            </div>
+         </section>
+
+         <!-- About me section -->
+         <section id="about">
+            <h1>About me</h1>
+
+            <h3>My fake portfolio</h3>
+            <div class="skillsbox">
+               <div class="skillcard">
+                  <img
+                     src="assets/fakeportfolio1.png"
+                     alt="portfolio picture" />
+               </div>
+               <div class="skillcard">
+                  <img
+                     src="assets/fakeportfolio2.png"
+                     alt="portfolio picture" />
+               </div>
+               <div class="skillcard">
+                  <img
+                     src="assets/fakeportfolio5.png"
+                     alt="portfolio picture" />
+               </div>
+            </div>
+
+            <h3>Summary</h3>
+            <p>
+               With over 15 years of diverse experience in the business and IT
+               sectors, I bring a comprehensive skill set and a track record of
+               success in various roles. My journey began in retail sales, where
+               I spent five years understanding customer needs and market
+               dynamics. I then advanced into procurement, spending nine years
+               in this field, including four years as the Head of Purchase,
+               honing my skills in negotiation and supply chain management
+               aswell as business intelligence.
+            </p>
+            <h3>Major Achievments</h3>
+            <p>
+               I've had the privilege of leading significant projects, notably a
+               complete system overhaul for a mid-sized company. This involved
+               implementing an integrated suite of ERP, WMS, PIM, and E-commerce
+               solutions. Additionally, I have successfully developed and
+               launched several webshops, demonstrating my capability in digital
+               commerce.
+            </p>
+            <h3>Technical Proficiency and Skills</h3>
+            <p>
+               My technical acumen includes system architecture and intermediate
+               expertise in various programming languages with a focus on
+               Object-Oriented Programming (OOP). I am also well-versed in
+               database coding and architecture. Alongside my technical skills,
+               I possess a fundamental understanding of corporate economics and
+               am highly proficient in the MS Office suite. My experience in
+               production planning and ordering is adaptable to companies of any
+               size, reflecting my versatile and scalable approach to business
+               operations.
+            </p>
+         </section>
+
+         <!-- Gallery section -->
+         <section id="gallery">
+            <h1>This is a gallery of pictures without meaning</h1>
+            <div class="gallery-box">
+               <div class="gallery-item">
+                  <img src="assets/1.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/2.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/3.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/4.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/5.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/6.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/7.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/8.png" alt="gallery picture" />
+               </div>
+               <div class="gallery-item">
+                  <img src="assets/9.png" alt="gallery picture" />
+               </div>
+            </div>
+         </section>
+
+         <!-- Contact section -->
+         <section id="contact">
+            <h1>Contact me</h1>
+            <div class="mailtoform">
+               <form
+                  class="mail-form"
+                  action="mailto:myfakemail@example.com"
+                  method="post"
+                  enctype="text/plain">
+                  <label for="name">Your Name:</label><br />
+                  <input type="text" id="name" name="name" required /><br />
+
+                  <label for="mail">Your E-mail:</label><br />
+                  <input type="text" id="mail" name="mail" required /><br />
+
+                  <label for="subject">Subject:</label><br />
+                  <select id="subject" name="subject">
+                     <option value="Job Inquiry">Job Inquiry</option>
+                     <option value="Question">Question</option>
+                     <option value="Feedback">Feedback</option>
+                     <option value="Other">Other</option></select
+                  ><br />
+
+                  <label for="message">Message:</label><br />
+                  <textarea id="message" name="message" required></textarea
+                  ><br />
+
+                  <input class="input-button" type="submit" value="Send" />
+                  <input class="input-button" type="reset" value="Reset" />
+               </form>
+
+               <div class="mailimagebox">
+                  <img src="assets/mail.png" alt="" />
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!-- Footer social media and page links-->
+      <footer class="footer">
+         <div class="social-image-links">
+            <a href="http://facebook.com" target="_blank"
+               ><img src="assets/facebook.png" alt="facebook link"
+            /></a>
+            <a href="http://instagram.com" target="_blank"
+               ><img src="assets/instagram.png" alt="Instagram link"
+            /></a>
+            <a href="http://twitter.com" target="_blank"
+               ><img src="assets/twitter.png" alt="Twitter link"
+            /></a>
+         </div>
+         <div class="footer-links">
+            <a href="#start" class="footer-link">start</a>
+            <a href="#about" class="footer-link">about me</a>
+            <a href="#gallery" class="footer-link">gallery</a>
+            <a href="#contact" class="footer-link">contact</a>
+         </div>
+      </footer>
+   </body>
+</html>
